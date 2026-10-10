@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="graphite">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>SZBro | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello world</h1>
+  <main class="wrap">
+    <header class="about">
+      <p class="mono prompt">$ whoami</p>
+      <h1 aria-label="SZBro"><span id="typed" aria-hidden="true">Skyler Broussard</span><span class="mono cursor" aria-hidden="true">_</span></h1>
+      <p>
+Computer Science and Systems student at UW Tacoma. I’m into how things work under the hood, from systems to AI and data science, and I’m passionate about game development. Below are five things I’m building this quarter.
+      </p>
+      <nav class="mono links">
+        <a href="https://github.com/SZBro" target="_blank" rel="noopener">github ↗</a>
+        <!-- <span class="sep">·</span>
+        <a href="https://www.linkedin.com/in/YOUR-NAME" target="_blank" rel="noopener">linkedin ↗</a> -->
+      </nav>
+    </header>
+
+    <section>
+      <p class="mono section-label">// artifacts</p>
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <script src="cards.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
