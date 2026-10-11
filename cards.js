@@ -6,7 +6,7 @@ const cards = [
     title: "This portfolio",
     description: "A terminal-flavored portfolio built with a web chat AI, plain HTML/CSS/JS, and GitHub Pages.",
     link: "https://github.com/SZBro/Portfolio",
-    reflection: "TODO: a few sentences on how it went and what you learned. Write this yourself at the end.",
+    reflection: "During the creation of this portfolio, I learned how to plan and walk through a project with AI from beginning to end. I was surprised by the visuals Claude can create right in the chat, and I liked picking a color palette there before writing any code. I’m starting to develop a workflow with AI coding tools: first a long conversation about requirements, MVP, tools, and tech to lay everything out, which is where the human time goes, and then building section by section, which flowed easily. Not everything went smoothly: deploying took debugging (a GitHub auth error and a 404), and I had to catch that the AI’s first card design was missing a reflection field.",
     status: "live"
   },
   {
@@ -39,8 +39,8 @@ const cards = [
   {
     number: 5,
     artifact: "The Moonshot",
-    title: "TODO: idea",
-    description: "TODO: the big swing.",
+    title: "CI failure debugger for humans and agents",
+    description: "A free, local tool that turns a failed GitHub Actions log into a cause chain with every step linked to its log lines. Humans get a visual view; AI agents get it through an MCP server, so they can debug CI without reading thousands of lines. Grows out of Artifact 3.",
     link: "",
     reflection: "",
     status: "idea"

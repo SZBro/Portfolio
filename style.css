@@ -63,8 +63,22 @@ h1 { color: var(--text); font-size: 2.2rem; font-weight: 600; margin: 4px 0 8px;
 .card p { margin: 0 0 8px; font-size: 15px; }
 .idea p { color: var(--dim); }
 
-.reflection { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 8px; }
-.reflection .mono { font-size: 12px; color: var(--dim); display: block; }
+.cards { align-items: start; }
+
+.reflection { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 10px; }
+.reflection summary {
+  font-size: 12px;
+  color: var(--dim);
+  cursor: pointer;
+  list-style: none;
+}
+.reflection summary::-webkit-details-marker { display: none; }
+.reflection summary::before { content: "▸ "; }
+.reflection[open] summary::before { content: "▾ "; }
+.reflection summary::after { content: " · read more"; color: var(--accent); }
+.reflection[open] summary::after { content: " · show less"; }
+.reflection summary:hover { color: var(--body); }
+.reflection p { margin-top: 6px; }
 
 .card a { color: var(--accent); text-decoration: none; font-size: 13px; }
 .card a:hover { text-decoration: underline; }

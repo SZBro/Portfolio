@@ -26,10 +26,10 @@ cards.forEach((card) => {
   }
 
   if (card.reflection) {
-    const r = el("div", "reflection");
-    r.appendChild(el("span", "mono", "reflection:"));
-    r.appendChild(el("p", "", card.reflection));
-    box.appendChild(r);
+    const details = el("details", "reflection");
+    details.appendChild(el("summary", "mono", "reflection"));
+    details.appendChild(el("p", "", card.reflection));
+    box.appendChild(details);
   }
 
   container.appendChild(box);
