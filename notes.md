@@ -119,4 +119,4 @@ Live site: https://szbro.github.io/Portfolio/
 - [x] Artifact 1 reflection
 - [x] Log
 - [x] Deployed
-- [ ] Submit link on Canvas
+- [x] Submit link on Canvas
