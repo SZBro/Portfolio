@@ -12,8 +12,8 @@ const cards = [
   {
     number: 2,
     artifact: "Something You Will Use",
-    title: "TODO: idea",
-    description: "TODO: one line about a tool you'd actually use.",
+    title: "Daily word puzzle game",
+    description: "A Wordle-style game I'd actually play, in the browser. Maybe themed (CS terms or games), maybe built in Godot or Rust/WASM.",
     link: "",
     reflection: "",
     status: "idea"
@@ -21,8 +21,8 @@ const cards = [
   {
     number: 3,
     artifact: "AI Inside It",
-    title: "TODO: idea",
-    description: "TODO: something where a model does part of the work.",
+    title: "Error log visualizer",
+    description: "Turns a long, messy error log into a chain of visual blocks: what happened, what caused what, and useful info at each step.",
     link: "",
     reflection: "",
     status: "idea"
@@ -30,8 +30,8 @@ const cards = [
   {
     number: 4,
     artifact: "For Someone Else",
-    title: "TODO: idea",
-    description: "TODO: who you'd build for, and what problem it solves.",
+    title: "Voice call notes bot",
+    description: "A Discord bot that records a voice call (with everyone's okay) and turns it into notes and action items, for a club or study group that meets on Discord.",
     link: "",
     reflection: "",
     status: "idea"
