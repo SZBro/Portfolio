@@ -12,11 +12,12 @@ const cards = [
   {
     number: 2,
     artifact: "Something You Will Use",
-    title: "Daily word puzzle game",
-    description: "A Wordle-style game I'd actually play, in the browser. Maybe themed (CS terms or games), maybe built in Godot or Rust/WASM.",
-    link: "",
-    reflection: "",
-    status: "idea"
+    title: "Mathle",
+    description: "TODO: one line about a tool you'd actually use.",
+    link: "https://szbro.github.io/Mathle/",
+    repo: "https://github.com/SZBro/Mathle",
+    reflection: "I started this project by brainstorming with Claude. For the first hour I wrote no code at all and focused on defining the game: how order of operations would work, which functions to include, how scoring should behave, and which features belonged in the first version. With those rules settled, I built the project in stages: the core math engine first, then the play screen and visuals, and finally the reveal page and scoring logic. Breaking it up this way made each step easier to test and kept the agent from guessing at decisions I hadn’t made yet. My main takeaway is to start earlier. With more time, I could have spread the work across several sessions and planned out more content, like a larger puzzle set. Even so, I finished a working MVP that I’ll keep playing, and I plan to add features, such as a practice mode, to make it more enjoyable for myself and others.",
+    status: "live"
   },
   {
     number: 3,

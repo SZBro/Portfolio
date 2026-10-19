@@ -25,6 +25,14 @@ cards.forEach((card) => {
     box.appendChild(a);
   }
 
+  if (card.repo) {
+    const a = el("a", "mono", "view code →");
+    a.href = card.repo;
+    a.target = "_blank";
+    a.rel = "noopener";
+    box.appendChild(a);
+  }
+
   if (card.reflection) {
     const details = el("details", "reflection");
     details.appendChild(el("summary", "mono", "reflection"));
