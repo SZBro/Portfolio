@@ -22,11 +22,13 @@ const cards = [
   {
     number: 3,
     artifact: "AI Inside It",
-    title: "Error log visualizer",
-    description: "Turns a long, messy error log into a chain of visual blocks: what happened, what caused what, and useful info at each step.",
-    link: "",
-    reflection: "",
-    status: "idea"
+    title: "TraceRoot",
+    description: "A local CLI that coding agents run when a Python program crashes. It returns a short, ranked root cause (file:line, cause, fix) in about 60 tokens, with the same accuracy as giving Claude every file.",
+    link: "https://szbro.github.io/traceroot/",
+    repo: "https://github.com/SZBro/traceroot",
+    log: "https://github.com/SZBro/traceroot/blob/main/LOG.md",
+    reflection: "I think this week of the project shows that the idea and brainstorming stage is becoming more and more important when developing projects. I loved the idea for this project, but building a tool that’s actually useful in terms of accuracy is difficult. This project showed me many things happening that I wasn’t thinking about, and it made me really think: was there a better way to approach the original brainstorming process to avoid many of these issues? From now on, right before I finish brainstorming and writing the CLAUDE.md that starts the Claude Code process, I want to do another brainstorming session on issues or problems that might pop up, and account for them now rather than later. Overall, using Claude is making development more of an SRS game than a coding game: having everything laid out, organized, and thought through matters more when developing projects that aren’t part of very specific work.",
+    status: "live"
   },
   {
     number: 4,

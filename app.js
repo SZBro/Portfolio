@@ -33,6 +33,14 @@ cards.forEach((card) => {
     box.appendChild(a);
   }
 
+  if (card.log) {
+    const a = el("a", "mono", "view build log →");
+    a.href = card.log;
+    a.target = "_blank";
+    a.rel = "noopener";
+    box.appendChild(a);
+  }
+
   if (card.reflection) {
     const details = el("details", "reflection");
     details.appendChild(el("summary", "mono", "reflection"));
