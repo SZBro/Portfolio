@@ -120,3 +120,14 @@ Live site: https://szbro.github.io/Portfolio/
 - [x] Log
 - [x] Deployed
 - [x] Submit link on Canvas
+
+---
+
+## 2026-11-01
+
+### Artifact 4 card (For Someone Else)
+- Replaced the Discord voice-call notes bot placeholder with the finished project,
+  Fat Bear or Weak: a Fat Bear Week browser game made with my partner Chris.
+- Built with Phaser 3 and Vite, plain JavaScript. Planned together in a shared
+  Google Doc (one brainstorm section each, then a "Finalized" section).
+- Card links to the GitHub repo and its LOG.md. Reflection still to write.

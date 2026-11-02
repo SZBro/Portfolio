@@ -33,11 +33,13 @@ const cards = [
   {
     number: 4,
     artifact: "For Someone Else",
-    title: "Voice call notes bot",
-    description: "A Discord bot that records a voice call (with everyone's okay) and turns it into notes and action items, for a club or study group that meets on Discord.",
-    link: "",
+    title: "Fat Bear or Weak",
+    description: "A browser game for Fat Bear Week, made with my partner Chris. You're a bear on a salmon river trying to be the heaviest by nightfall. Bears don't eat each other; they fight over the best fishing spots with swipes, charges, blocks and dashes, steal each other's fish, and hunt roaming wildlife.",
+    link: "https://github.com/SZBro/Project_For_Someone_Else",
+    repo: "https://github.com/SZBro/Project_For_Someone_Else",
+    log: "https://github.com/SZBro/Project_For_Someone_Else/blob/main/LOG.md",
     reflection: "",
-    status: "idea"
+    status: "live"
   },
   {
     number: 5,
