@@ -38,7 +38,7 @@ const cards = [
     link: "https://github.com/SZBro/Project_For_Someone_Else",
     repo: "https://github.com/SZBro/Project_For_Someone_Else",
     log: "https://github.com/SZBro/Project_For_Someone_Else/blob/main/LOG.md",
-    reflection: "",
+    reflection: "I really like this project because Chris, our girlfriends, and I are all fans of Fat Bear Week, and we wanted to make a game that plays off of it. It has been really fun to develop and come up with ideas for. I grew up playing Flash browser games and later .io games like agar.io, and those were a big motivation for this one. Right now the game is a single-player version that runs locally in the browser, with NPC bears to fight over the river. We planned it in a shared Google Doc where each of us brainstormed in our own section, then moved the ideas we both agreed on into a “Finalized” section before writing any code. The plan is to expand it into multiplayer modes and refine the combat so it becomes something people can actually play together. Next week will focus on the multiplayer part.",
     status: "live"
   },
   {
